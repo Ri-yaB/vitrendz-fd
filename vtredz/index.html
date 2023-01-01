@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrendz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contentarea">
+        <br>
+        <h2> Take a picture</h2>
+        <br><br><br><br>
+        <div class="camera">
+            <video id="video"Stream not there></video>
+        </div>
+        <div><button id="startbutton">Take photo</button></div>
+        <canvas id="canvas"></canvas>
+        <div class="output">
+            <img id="photo" alt="The capture">
+        </div>
+        <input type="reset">
+    </div>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="text" placeholder="Registration No." class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="email" placeholder="VIT Email" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password</a>
+                    </div>
+                    <div class="field button-field">
+                        <a href="file:///C:/Users/Riya%20Bansal/Documents/webprojects/vtredz/newindex.html">
+                        <button>Submit</button>
+                        </a>
+                    </div>
+                    
+                    
+                </form>
+                <div class="form-link">
+                    <span>Already have an account?<a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+            
+        </div>
+
+        <!--Signup form-->
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="text" placeholder="Name" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="text" placeholder="Registration No." class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="text" placeholder="Address" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="number" placeholder="Phone number" class="input">
+                    </div>
+                    <!--Here we can use even radio type to get the gender input from user-->
+                    <div class="field input-field">
+                        <input type="text" placeholder="Gender" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="email" placeholder="VIT Email" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="field button-field">
+                        <a href="file:///C:/Users/Riya%20Bansal/Documents/webprojects/vtredz/newindex.html">
+                        <button>Submit</button>
+                        </a>
+                    </div>
+                    
+                </form>
+                <div class="form-link">
+                    <span>Already have an account?<a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <script src="style.js"></script>
+</body>
+</html>
